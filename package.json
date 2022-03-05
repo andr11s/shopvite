@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "tsc && vite build && npm run start",
     "preview": "vite preview",
     "start": "node server.js",
     "heroku-postbuild": "npm run build"
@@ -14,5 +14,8 @@
     "serve-static": "^1.14.2",
     "typescript": "^4.5.4",
     "vite": "^2.8.0"
+  },
+  "dependencies": {
+    "path": "^0.12.7"
   }
 }
