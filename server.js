@@ -6,5 +6,10 @@ const app = express();
 
 // Serve only the static files form the dist directory
 app.use(serveStatic(path.join(__dirname, 'dist')));
-const port = process.env.PORT || 80;
-app.listen(port);
+
+
+app.get("/*", (req, res) =>
+  res.sendFile("index.html", { root: "dist" })
+);
+ 
+app.listen(process.env.PORT || 8080);
