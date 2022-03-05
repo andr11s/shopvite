@@ -7,7 +7,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "start": "node server.js",
-    "postinstall": "npm run build"
+    "heroku-postbuild": "npm run build"
   },
   "devDependencies": {
     "express": "^4.17.3",
