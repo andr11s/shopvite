@@ -1,5 +1,5 @@
 import { App } from './App';
-import './assets/style.css'
+import './assets/style.scss'
 
 
 const d = document;
