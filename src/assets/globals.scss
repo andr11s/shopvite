@@ -1,14 +1,14 @@
 @font-face {
     font-family: "PoppinsLight";
-    src: url("./fonts/poppins/Poppins-Light.otf");
+    src: url("../assets/fonts/poppins/Poppins-Light.ttf");
 }
 @font-face {
     font-family: "PoppinsRegular";
-    src: url("./fonts/poppins/Poppins-Regular.otf");
+    src: url("../assets/fonts/poppins/Poppins-Regular.ttf");
 }
 @font-face {
     font-family: "PoppinsBold";
-    src: url("./fonts/poppins/Poppins-Bold.otf");
+    src: url("../assets/fonts/poppins/Poppins-Bold.ttf");
 }
 
 $PPINS : 'PoppinsRegular';
