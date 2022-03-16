@@ -1,3 +1,4 @@
+import { example } from "./components/home";
 
 
 export function App() {
@@ -6,6 +7,10 @@ export function App() {
     let $app = d.getElementById('app');
 
     console.log('app', $app);
+
+    const examplex = new example('products', 'https://fakestoreapi.com/');
+
+    examplex.getAll().then(data => console.log('aaghhh', data));
 
     const a = d.createElement('header');
 
