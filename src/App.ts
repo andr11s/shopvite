@@ -1,16 +1,8 @@
-import { example } from "./components/home";
+import { Main } from "./components/main";
 
-
-export function App() {
+export async function App() {
     const d = document;
-
     let $app = d.getElementById('app');
-
-    console.log('app', $app);
-
-    const examplex = new example('products', 'https://fakestoreapi.com/');
-
-    examplex.getAll().then(data => console.log('aaghhh', data));
 
     const a = d.createElement('header');
 
@@ -19,5 +11,5 @@ export function App() {
     a.innerHTML = `Hola como estas esto es un h1 en vite!!!!`;
 
     $app?.appendChild(a);
-
+    $app?.appendChild(Main());
 }

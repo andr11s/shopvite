@@ -1,5 +1,5 @@
+import { environmentsDev } from "../environments/environments";
 import { ContentType, Methods } from "../interfaces/configurations-api";
-import { ApiConfig } from '../helpers/api-config'
 
 class Request {
   resource: string;
@@ -11,6 +11,7 @@ class Request {
   }
 
   async fetch(resource = this.resource, options: RequestInit) {
+
     const method = options.method ? options.method.toLocaleUpperCase() : Methods.GET;
     const requestOptions = { ...options, method };
 
@@ -21,7 +22,7 @@ class Request {
 
     if (options.body) requestOptions.body = JSON.stringify(options.body);
 
-    const baseUrl = this.baseUrl ? this.baseUrl : ApiConfig.DOMAIN;
+    const baseUrl = this.baseUrl ? this.baseUrl : environmentsDev.API;
 
     const response = await fetch(`${baseUrl}/${resource}`, requestOptions);
     return await response.json();
