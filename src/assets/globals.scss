@@ -1,89 +1,90 @@
 @font-face {
-	font-family: 'PoppinsLight';
-	src: url('../assets/fonts/poppins/Poppins-Light.otf');
+  font-family: 'PoppinsLight';
+  src: url('../assets/fonts/poppins/Poppins-Light.otf');
 }
 @font-face {
-	font-family: 'PoppinsRegular';
-	src: url('../assets/fonts/poppins/Poppins-Regular.otf');
+  font-family: 'PoppinsRegular';
+  src: url('../assets/fonts/poppins/Poppins-Regular.otf');
 }
 @font-face {
-	font-family: 'PoppinsBold';
-	src: url('../assets/fonts/poppins/Poppins-Bold.otf');
+  font-family: 'PoppinsBold';
+  src: url('../assets/fonts/poppins/Poppins-Bold.otf');
 }
 
 $PPINS: 'PoppinsRegular';
 $PPINSL: 'PoppinsLight';
 $PPINSB: 'PoppinsBold';
 
-$themecolor: #40bfff;
-$themecolor-secundary: #ff4858;
-$themecolor-third: #bcddfe;
+$colorprimaryblue: #40bfff;
+$colorsecundary: #ff4858;
+$neutraldark: #373737;
+$colorgray: #bcddfe;
 $theme-light: #e5e5e5;
-$theme-dark: #373737;
+$backgroundcolor: #ffffff;
 $font-size: 16px;
 
 html {
-	box-sizing: border-box;
-	font-family: $PPINS;
-	scroll-behavior: smooth;
-	font-size: $font-size;
+  box-sizing: border-box;
+  font-family: $PPINS;
+  scroll-behavior: smooth;
+  font-size: $font-size;
 }
 
 body {
-	margin: 0;
-	overflow-x: hidden;
-	background-color: $theme-light;
+  margin: 0;
+  overflow-x: hidden;
+  background-color: $backgroundcolor;
 }
 *,
 *:after,
 *:before {
-	box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 a {
-	color: blue;
-	transition: color 0.3s ease;
+  color: blue;
+  transition: color 0.3s ease;
 }
 
 a:hover {
-	color: rgb(92, 92, 161);
+  color: rgb(92, 92, 161);
 }
 
 img {
-	max-width: 100%;
-	height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 h1 {
-	margin: 0;
-	font-size: 2rem;
+  margin: 0;
+  font-size: 2rem;
 }
 
 h2 {
-	margin: 0;
-	font-size: 1.5rem;
+  margin: 0;
+  font-size: 1.5rem;
 }
 
 h3 {
-	margin: 0;
-	font-size: 1.25rem;
+  margin: 0;
+  font-size: 1.25rem;
 }
 
 h4 {
-	margin: 0;
-	font-size: 1rem;
+  margin: 0;
+  font-size: 1rem;
 }
 
 h5 {
-	margin: 0;
-	font-size: 0.85rem;
+  margin: 0;
+  font-size: 0.85rem;
 }
 
 h6 {
-	margin: 0;
-	font-size: 0.7rem;
+  margin: 0;
+  font-size: 0.7rem;
 }
 
 p {
-	line-height: 1.6;
+  line-height: 1.6;
 }
