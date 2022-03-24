@@ -7,7 +7,7 @@ export function Header() {
   $header.innerHTML = `
     <div class="row">
            <div class="col-md-6">
-            <img src="./src/assets/image/logoMain.png">  
+           <img src="./src/assets/image/logo.svg" alt="aaaa"> 
           </div>
           <div class="col-md-6"> 
               <nav class="header-container-menu"> 
