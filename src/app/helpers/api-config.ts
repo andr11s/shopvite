@@ -1,4 +1,4 @@
-import { environmentsDev } from '../environments/environments';
+import { environmentsDev } from '../../environments/environments';
 import { RequestUrl } from '../interfaces/configurations-api';
 import ProductsService from '../services/products.service';
 import CategoriesServices from '../services/categories.service';
