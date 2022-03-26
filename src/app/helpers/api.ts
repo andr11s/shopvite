@@ -1,4 +1,4 @@
-import { environmentsDev } from "../environments/environments";
+import { environmentsDev } from "../../environments/environments";
 import { ContentType, Methods } from "../interfaces/configurations-api";
 
 class Request {
