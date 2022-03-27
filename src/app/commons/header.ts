@@ -1,4 +1,4 @@
-import imageLogo from "../../assets/image/logo_copy.svg";
+// import imageLogo from "../../assets/image/logo_copy.svg";
 
 export function Header() {
   const $header = document.createElement('header');
