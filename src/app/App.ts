@@ -7,4 +7,4 @@ export async function App() {
 
     $app?.appendChild(Header());
     $app?.appendChild(Main());
-}
+} 

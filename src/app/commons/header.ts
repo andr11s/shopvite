@@ -24,11 +24,11 @@ export function Header() {
       </a>
       <a href="#" class="menu-item">
         <span class="material-icons"><i class="fa-solid fa-tag"></i></span>
-        <span class="menu-item-label">Offer</span>
+        <span class="menu-item-label">Account</span>
       </a>
       <a href="#" class="menu-item">
-        <span class="material-icons"><i class="fa-solid fa-user"></i></span>
-        <span class="menu-item-label">Account</span>
+        <span class="material-icons"><i class="fa-solid fa-align-justify"></i></span>
+        <span class="menu-item-label">Menu</span>
       </a>
     </nav>
   </div>

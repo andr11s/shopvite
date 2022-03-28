@@ -11,6 +11,48 @@
 
 <body>
   <main id="app"></main>
+
+  <header class="header">
+    <div class="header__menu">
+      <div class="menu">
+        <a href="#" class="menu-item">
+          <span class="material-icons"><i class="fa-solid fa-house"></i></span>
+          <span class="menu-item-label">Home</span>
+        </a>
+        <a href="#" class="menu-item">
+          <span class="material-icons"><i class="fa-solid fa-magnifying-glass"></i> </span>
+          <span class="menu-item-label">Explorer</span>
+        </a>
+        <a href="#" class="menu-item">
+          <span class="material-icons"><i class="fa-solid fa-cart-shopping"></i></span>
+          <span class="menu-item-label">Cart</span>
+        </a>
+        <a href="#" class="menu-item">
+          <span class="material-icons"><i class="fa-solid fa-tag"></i></span>
+          <span class="menu-item-label">Account</span>
+        </a>
+        <a class="menu-item">
+          <span class="material-icons">
+            <i id='icon_active' class="fa-solid fa-bars icons_view"></i>
+            <i id='icon_inactive' class="menu__active fa-solid fa-bars-staggered icons_view"></i>
+          </span>
+          <span class="menu-item-label">Menu</span>
+        </a>
+      </div>
+    </div>
+
+    <nav role="navigation" class="menu__mobile view__menu a" id="nav__menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Info</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+
+    </nav>
+  </header>
+
+
   <script type="module" src="/src/main.ts"></script>
 </body>
 
