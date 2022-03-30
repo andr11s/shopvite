@@ -123,6 +123,91 @@
     font-size: 1.2rem;
     font-family: $PPINSB;
   }
+
+  .discounted__products {
+    padding: 10px 20px;
+  }
+
+  .discounted__products-image {
+    background: linear-gradient(180deg, #000000 -73.06%, rgba(0, 0, 0, 0) 100%), url('/src/assets/image/promotion-Image.png');
+    border-radius: 5px;
+    height: 20vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  .discounted__products-text {
+    display: flex;
+    position: absolute;
+    padding: 15% 5%;
+    justify-content: start;
+    align-items: start;
+    color: white;
+  }
+
+  .products__list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .products__list-card {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    box-shadow: 0 0 10px $colorgray;
+    border-radius: 5px;
+    background-color: #f6f7f8;
+  }
+
+  .products__card-title {
+    display: flex;
+
+    .card__title {
+      max-width: 80%;
+
+      h3 {
+        font-size: 20px;
+        font-family: $PPINS;
+      }
+    }
+
+    .card__price {
+      h5 {
+        font-size: 30px;
+        font-family: $PPINS;
+        color: $colorprimaryblue;
+        letter-spacing: 0.5px;
+      }
+    }
+  }
+
+  .products__list-image {
+    padding: 5%;
+
+    img {
+      border-radius: 5px;
+    }
+    .products__list-discounted {
+      display: flex;
+
+      .discounted-price {
+        text-decoration-line: line-through;
+        font-size: 18px;
+        font-family: $PPINS;
+        color: $text-gray;
+        padding-right: 10px;
+        margin: 0;
+      }
+
+      .discounted-discount {
+        font-size: 18px;
+        font-family: $PPINS;
+        color: $colorsecundary;
+        margin: 0;
+      }
+    }
+  }
 }
 
 /* smartphones, Android phones, landscape iPhone */
