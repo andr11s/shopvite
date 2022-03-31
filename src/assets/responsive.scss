@@ -176,7 +176,7 @@
       max-width: 80%;
 
       h3 {
-        font-size: 0.9rem;
+        font-size: 1rem;
         font-family: $PPINS;
       }
     }
@@ -203,7 +203,7 @@
 
       .discounted-price {
         text-decoration-line: line-through;
-        font-size: 1.1rem;
+        font-size: 0.9rem;
         font-family: $PPINS;
         color: $text-gray;
         padding-right: 10px;
@@ -211,7 +211,7 @@
       }
 
       .discounted-discount {
-        font-size: 1.1rem;
+        font-size: 0.9rem;
         font-family: $PPINS;
         color: $colorsecundary;
         margin: 0;
@@ -230,7 +230,7 @@
 /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
 @media (min-width: 600px) {
   body {
-    background-color: rgb(0, 255, 55);
+    background-color: rgb(6, 0, 90);
   }
 }
 
