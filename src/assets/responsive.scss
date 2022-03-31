@@ -54,7 +54,7 @@
   }
 
   .menu__mobile {
-    position: absolute;
+    position: fixed;
     width: 70vw;
     height: 100vh;
     box-shadow: 0 0 10px $colorgray;
@@ -125,7 +125,7 @@
   }
 
   .discounted__products {
-    padding: 10px 20px;
+    padding: 10px 7px;
   }
 
   .discounted__products-image {
@@ -146,9 +146,16 @@
     color: white;
   }
 
+  .discounted__products-title {
+    padding: 5% 0;
+    font-family: $PPINSB;
+    font-size: 1.2rem;
+  }
+
   .products__list {
     display: flex;
     flex-direction: column;
+    padding: inherit;
   }
 
   .products__list-card {
@@ -162,19 +169,21 @@
 
   .products__card-title {
     display: flex;
-
+    padding: 10px;
+    justify-content: space-between;
+    align-items: baseline;
     .card__title {
       max-width: 80%;
 
       h3 {
-        font-size: 20px;
+        font-size: 0.9rem;
         font-family: $PPINS;
       }
     }
 
     .card__price {
       h5 {
-        font-size: 30px;
+        font-size: 1rem;
         font-family: $PPINS;
         color: $colorprimaryblue;
         letter-spacing: 0.5px;
@@ -183,17 +192,18 @@
   }
 
   .products__list-image {
-    padding: 5%;
+    padding: 1%;
 
     img {
       border-radius: 5px;
     }
+
     .products__list-discounted {
       display: flex;
 
       .discounted-price {
         text-decoration-line: line-through;
-        font-size: 18px;
+        font-size: 1.1rem;
         font-family: $PPINS;
         color: $text-gray;
         padding-right: 10px;
@@ -201,7 +211,7 @@
       }
 
       .discounted-discount {
-        font-size: 18px;
+        font-size: 1.1rem;
         font-family: $PPINS;
         color: $colorsecundary;
         margin: 0;

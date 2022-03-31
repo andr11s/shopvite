@@ -1,12 +1,11 @@
 //  import imageLogo from "../../assets/image/logo_copy.svg";
-import onlyLogo from "../../assets/image/only-logo.png";
+import onlyLogo from '../../assets/image/only-logo.png';
 
 export function Header() {
   const $header = document.createElement('header');
 
   $header.id = 'header';
   $header.classList.add('header');
-  $header.classList.add('container');
   $header.innerHTML = `
   <header class="header">
   <div class="header__menu">
