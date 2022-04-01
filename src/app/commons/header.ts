@@ -35,16 +35,15 @@ export function Header() {
       </a>
     </div>
   </div>
-
-
-  <nav role="navigation" class="menu__responsive view__menu menu__in--view" id="nav__menu">
-    <div class="menu__responsive--section">
+ 
+  <nav role="navigation" class="menu__responsive  menu__in--view" id="nav__menu">
+    <div class="menu__responsive--left">
       <img src="${onlyLogo}" alt="" class="d-inline-block align-text-center">
       <a class="menu__responsive--logo" href="#">
         Welcome to E-com
       </a>
     </div>
-    <ul class="menu__responsive--ul">
+    <ul class="menu__responsive--right">
       <li class="menu__responsive--li"><a href="#">Home</a></li>
       <li class="menu__responsive--li"><a href="#">Bags</a></li>
       <li class="menu__responsive--li"><a href="#">Sneakers</a></li>
