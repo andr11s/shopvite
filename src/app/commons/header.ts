@@ -1,12 +1,11 @@
 //  import imageLogo from "../../assets/image/logo_copy.svg";
-import onlyLogo from "../../assets/image/only-logo.png";
+import onlyLogo from '../../assets/image/only-logo.png';
 
 export function Header() {
   const $header = document.createElement('header');
 
   $header.id = 'header';
   $header.classList.add('header');
-  $header.classList.add('container');
   $header.innerHTML = `
   <header class="header">
   <div class="header__menu">
@@ -36,21 +35,20 @@ export function Header() {
       </a>
     </div>
   </div>
-
-
-  <nav role="navigation" class="menu__mobile view__menu menu__in--view" id="nav__menu">
-    <div class="menu__mobile--section">
+ 
+  <nav role="navigation" class="menu__responsive  menu__in--view" id="nav__menu">
+    <div class="menu__responsive--left">
       <img src="${onlyLogo}" alt="" class="d-inline-block align-text-center">
-      <a class="menu__mobile--logo" href="#">
+      <a class="menu__responsive--logo" href="#">
         Welcome to E-com
       </a>
     </div>
-    <ul class="menu__mobile--ul">
-      <li class="menu__mobile--li"><a href="#">Home</a></li>
-      <li class="menu__mobile--li"><a href="#">Bags</a></li>
-      <li class="menu__mobile--li"><a href="#">Sneakers</a></li>
-      <li class="menu__mobile--li"><a href="#">Belt</a></li>
-      <li class="menu__mobile--li"><a href="#">Contact</a></li>
+    <ul class="menu__responsive--right">
+      <li class="menu__responsive--li"><a href="#">Home</a></li>
+      <li class="menu__responsive--li"><a href="#">Bags</a></li>
+      <li class="menu__responsive--li"><a href="#">Sneakers</a></li>
+      <li class="menu__responsive--li"><a href="#">Belt</a></li>
+      <li class="menu__responsive--li"><a href="#">Contact</a></li>
     </ul>
   </nav>
 
