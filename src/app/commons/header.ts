@@ -37,19 +37,19 @@ export function Header() {
   </div>
 
 
-  <nav role="navigation" class="menu__mobile view__menu menu__in--view" id="nav__menu">
-    <div class="menu__mobile--section">
+  <nav role="navigation" class="menu__responsive view__menu menu__in--view" id="nav__menu">
+    <div class="menu__responsive--section">
       <img src="${onlyLogo}" alt="" class="d-inline-block align-text-center">
-      <a class="menu__mobile--logo" href="#">
+      <a class="menu__responsive--logo" href="#">
         Welcome to E-com
       </a>
     </div>
-    <ul class="menu__mobile--ul">
-      <li class="menu__mobile--li"><a href="#">Home</a></li>
-      <li class="menu__mobile--li"><a href="#">Bags</a></li>
-      <li class="menu__mobile--li"><a href="#">Sneakers</a></li>
-      <li class="menu__mobile--li"><a href="#">Belt</a></li>
-      <li class="menu__mobile--li"><a href="#">Contact</a></li>
+    <ul class="menu__responsive--ul">
+      <li class="menu__responsive--li"><a href="#">Home</a></li>
+      <li class="menu__responsive--li"><a href="#">Bags</a></li>
+      <li class="menu__responsive--li"><a href="#">Sneakers</a></li>
+      <li class="menu__responsive--li"><a href="#">Belt</a></li>
+      <li class="menu__responsive--li"><a href="#">Contact</a></li>
     </ul>
   </nav>
 
