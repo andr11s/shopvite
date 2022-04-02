@@ -216,6 +216,12 @@
   }
 }
 
+@media (min-width: 320px) and (orientation: landscape) {
+  .menu__responsive {
+    height: max-content;
+  }
+}
+
 /* smartphones, Android phones, landscape iPhone */
 @media (min-width: 480px) {
   .menu__active {
